@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th>Name</th><th>Email</th><th>DOB</th><th>Department</th><th>Phone</th>
+  </tr>
+  {% for s in students %}
+  <tr>
+    <td>{{ s.name }}</td>
+    <td>{{ s.email }}</td>
+    <td>{{ s.dob }}</td>
+    <td>{{ s.department }}</td>
+    <td>{{ s.phone }}</td>
+  </tr>
+  {% endfor %}
+</table>
