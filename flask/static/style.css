@@ -1,0 +1,4 @@
+body { background: #f8fafc; }
+.card { max-width: 900px; margin: 0 auto; }
+#result { max-width: 900px; margin: 0 auto; }
+.booking-summary { white-space: pre-wrap; }
